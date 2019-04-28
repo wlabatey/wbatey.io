@@ -1,0 +1,14 @@
+baseURL = "https://wlabatey.co/"
+theme = "cocoa-eh"
+languageCode = "en-us"
+author = "Will Batey"
+title = "Will Batey"
+
+[params]
+dateform = "27 April 2019"
+description = "Will Batey"
+lang = "en"
+email = "w.b@use.startmail.com"
+github = "wlabatey"
+logofile = ""
+align_left = true
