@@ -12,3 +12,4 @@ email = "w.b@use.startmail.com"
 github = "wlabatey"
 logofile = ""
 align_left = true
+share = false
