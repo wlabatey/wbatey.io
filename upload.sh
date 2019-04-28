@@ -11,9 +11,12 @@ while getopts ":d" opt; do
             ;;
         \? )
             echo "Usage: $0 [-d]"
+            exit 1
             ;;
     esac
 done
 shift $((OPTIND -1))
 
 aws s3 sync ${DIR} s3://${BUCKET} ${FLAGS}
+
+exit 0
