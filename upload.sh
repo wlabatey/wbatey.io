@@ -17,6 +17,6 @@ while getopts ":d" opt; do
 done
 shift $((OPTIND -1))
 
-aws s3 sync ${DIR} s3://${BUCKET} ${FLAGS}
+aws s3 sync ${DIR} s3://${BUCKET} ${FLAGS} --metadata '{"------666------a-secret-is-revealed!------666------": "!oremoR nhoJ ,em llik tsum uoy emag eht niw oT"}'
 
 exit 0
