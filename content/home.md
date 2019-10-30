@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Infrastructure Engineer based in Niagra Falls, ON.
+Infrastructure Engineer based in Niagara Falls, ON.
 
 <div class="img-container">
 <a href="https://gnu.org"><img class="main-img" src="img/gnu.svg" title="GNU"></img></a>
