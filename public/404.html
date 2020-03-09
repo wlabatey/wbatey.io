@@ -67,7 +67,6 @@ a:active {
   text-decoration: none;
   outline: transparent;
 }
-
 html {
   height: 100%;
   font-size: 16px;
@@ -262,7 +261,7 @@ div.footer .container .copyright {
   text-align: start;
 }
 div.footer .container .icons {
-  flex-grow: 0.5;
+  flex-grow: 1;
   text-align: end;
 }
 div.main .container {
@@ -290,11 +289,6 @@ div.main .content .title-container {
   -ms-justify-content: space-between;
   justify-content: space-between;
 }
-
-div.main .img-container {
-    margin: 60px 0;
-}
-
 div.main .content .posts {
   
   
@@ -439,12 +433,8 @@ div.header {
 }
 div.header-home {
   padding-top: 36px;
+  padding-bottom: 0px;
 }
-
-div.header.header-home {
-    padding-bottom: 0px;
-}
-
 div.main {
   padding-top: 32px;
 }
@@ -468,12 +458,14 @@ a:hover {
 img {
   max-width: 100%;
 }
-
-
-
 div.main .content {
     width: 100%;
 }
+
+div.main .img-container {
+    margin: 60px 0;
+}
+
 div.main .content .markdown {
   font-size: 1.1em;
   line-height: 1.75em;
@@ -748,28 +740,6 @@ kbd {
 /* Fonts */
 
 
-.wf-raleway-n4-active body, 
-.wf-raleway-n4-active div.header nav ul a,
-.wf-raleway-n7-active div.main .content .page-heading,
-.wf-raleway-n2-active div.main .container.f04 .content .num,
-.wf-raleway-n7-active div.main .content .markdown h1,
-.wf-raleway-n7-active div.main .content .markdown h2,
-.wf-raleway-n7-active div.main .content .markdown h3,
-.wf-raleway-n7-active div.main .content .markdown h4,
-.wf-raleway-n7-active div.main .content .markdown h5,
-.wf-raleway-n7-active div.main .content .markdown h6 {
-      font-family: 'Raleway';
-}
-
-.wf-merriweather-n3-active div.main .content .markdown {
-      font-family: 'Merriweather';
-}
-
-.wf-ubuntu-mono-n4-active div.main .content .markdown code,
-.wf-ubuntu-mono-n4-active div.main .content .markdown pre {
-      font-family: 'Ubuntu Mono';
-}
-
 
 </style>
 <style media="(min-width: 600px)">
@@ -814,7 +784,6 @@ margin-left: 24px;
 }
 div.header-home .name-home {
 padding-top: 30px;
-padding-bottom: 30px;
 font-size: 40px;
 }
 div.header-home nav ul a {
@@ -958,11 +927,16 @@ margin-left: -4%;
 
 
 
-<link rel="icon"
 
-    href="data:,"
+
+<link rel="shortcut icon"
+
+    href="https://wbatey.co/img/favicon.ico"
 
 >
+
+
+
 
 <style>
     .logo {
@@ -983,7 +957,7 @@ margin-left: -4%;
 </style>
 </head>
 <body>
-    <img src= class="logo" alt="logo" />
+    
     <div class="container f04">
         <div class="content">
             <div class="header column">
