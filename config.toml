@@ -13,3 +13,16 @@ github = "wlabatey"
 logofile = ""
 align_left = true
 share = false
+disableFancyFonts = true
+highlightjs = false
+progressively = false
+fathomurl = false
+uselatex = false
+googleFonts = false
+homeScripts = false
+githubRepo = false
+gitlabRepo = false
+copyright = false
+
+[markup.goldmark.renderer]
+unsafe = true
