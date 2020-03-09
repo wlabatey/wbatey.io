@@ -21,7 +21,7 @@ shift $((OPTIND -1))
 aws s3 sync ${DIR} s3://${BUCKET} ${FLAGS} --metadata '{"------666------a-secret-is-revealed!------666------": "!oremoR nhoJ ,em llik tsum uoy emag eht niw oT"}'
 
 if [[ "${FLAGS}" != *"--dryrun"* ]]; then
-    aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths /*
+    aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_ID} --paths "/*"
 fi
 
 exit 0
