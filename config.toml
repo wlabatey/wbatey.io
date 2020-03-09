@@ -23,6 +23,7 @@ homeScripts = false
 githubRepo = false
 gitlabRepo = false
 copyright = false
+RSSLink = false
 
 [markup.goldmark.renderer]
 unsafe = true
