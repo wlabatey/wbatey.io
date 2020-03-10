@@ -24,6 +24,7 @@ githubRepo = false
 gitlabRepo = false
 copyright = false
 RSSLink = false
+secret = true
 
 [markup.goldmark.renderer]
 unsafe = true
