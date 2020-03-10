@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 DIR="./public"
-BUCKET="wbatey.co"
-CLOUDFRONT_ID="EPE0IDY19YCKA"
+BUCKET="wbatey.io"
+CLOUDFRONT_ID="E1CAIX02NMO93L"
 FLAGS="--exclude .git/ --delete"
 
 while getopts ":d" opt; do
