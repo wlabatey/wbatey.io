@@ -4,4 +4,4 @@ Built with the [Cocoa Enhanced](https://github.com/mtn/cocoa-eh-hugo-theme) them
 
 # Link
 
-https://wbatey.co
+https://wbatey.io
