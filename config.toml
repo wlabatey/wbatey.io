@@ -25,6 +25,7 @@ gitlabRepo = false
 copyright = false
 RSSLink = false
 secret = true
+faviconfile = false
 
 [markup.goldmark.renderer]
 unsafe = true
