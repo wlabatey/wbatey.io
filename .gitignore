@@ -1,0 +1,7 @@
+### Hugo ###
+# Generated files by hugo
+public/
+resources/_gen/
+
+# Auto-generated tag files
+tags
