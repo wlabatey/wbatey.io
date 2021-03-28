@@ -2,7 +2,7 @@
 title = "Home"
 +++
 
-Infrastructure Engineer based in Malta.
+Site Reliability Engineer based in Malta.
 
 <div class="img-container">
 <a href="https://gnu.org"><img class="main-img" src="img/gnu.svg" title="GNU"></img></a>
